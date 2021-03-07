@@ -4,7 +4,6 @@ import axios from 'axios'
 export const fetchData = async (fn) => {
     const res = await axios.post('http://transpaas-test.sutpc.com/transpaas/api/v1/index/query', { "size": 10, "page": 0, "title": "规划" })
     fn(res.data.code)
-
 }
 
 
