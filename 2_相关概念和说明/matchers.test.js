@@ -60,3 +60,5 @@ test('测试能否抛出异常', () => {
     // expect(fn).toThrow('this is a error')  // 或者正则表达式 /this is a error/
     // expect(fn).not.toThrow()
 })
+
+// 其它时间原因就不讲了，大家自行官网文档，如本文件夹内的图
