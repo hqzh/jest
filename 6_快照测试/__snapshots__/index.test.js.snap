@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`generateAnotherConfig 1`] = `
+Object {
+  "domain": "localhost",
+  "port": 8084,
+  "server": "http://localhost",
+}
+`;
+
+exports[`generateConfig 1`] = `
+Object {
+  "domain": "localhost",
+  "port": 8083,
+  "server": "http://localhost",
+}
+`;
+
+exports[`generateDynamicConfig 动态参数测试 1`] = `
+Object {
+  "port": 8084,
+  "server": "http://localhost",
+  "time": Any<Date>,
+}
+`;
