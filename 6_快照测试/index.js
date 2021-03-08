@@ -21,3 +21,11 @@ export const generateDynamicConfig = () => {
         time: new Date()
     }
 }
+
+export const generateInlineConfig = () => {
+    return {
+        server: 'http://localhost',
+        port: 8084,
+        time: new Date()
+    }
+}
