@@ -1,4 +1,4 @@
-import { fetchData, fetchDatas, fetchPromise, fetch404 } from './fetchData'
+import { fetchData, fetchPromise, fetch404 } from './fetchData'
 
 test('回调类型异步测试', (done) => {
     fetchData(code => {

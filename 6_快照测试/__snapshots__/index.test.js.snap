@@ -23,11 +23,3 @@ Object {
   "time": Any<Date>,
 }
 `;
-
-exports[`generateInlineConfig 行内参数测试 1`] = `
-Object {
-  "port": 8084,
-  "server": "http://localhost",
-  "time": Any<Date>,
-}
-`;
